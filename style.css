@@ -1,0 +1,144 @@
+.container{
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.top-left-button{
+    border: 0px;
+    background-color: #ffffff;
+    margin-right:2%;
+}
+@media screen and (max-width:450px){
+    .top-left-button{
+        margin-right: 3%;
+    }
+}
+.profile-name{
+    font-size: 1.5rem;
+    margin-right:12%;
+}
+@media screen and (max-width:450px){
+    .profile-name{
+        margin-right: 33%;
+    }
+}
+.right-dot-button{
+    float: right;
+    margin-left: 11%;
+    cursor: pointer;
+    
+}
+
+.dots{
+    position: relative;
+    height: 4px;
+    width:4px;
+    border-radius: 50%;
+    background-color: #4d4b4b;
+    margin: 2px;
+    top: 25%;
+}
+
+.detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1.8rem;
+    margin-bottom: 1.3rem;
+    
+}
+
+.profile-img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-right: 6%;
+    margin-left: 3%;
+}
+
+.post-count{
+    font-size: 1.7rem;
+    padding-left: 4px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.followers-count{
+    font-size: 1.6rem;
+    padding-left: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.following-count{
+    font-size: 1.6rem;
+    padding-left: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.post-row{
+    margin: 5px;
+}
+
+.post,.followers,.following{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.about-profile{
+   display: inline-block;
+   font-family: 'IBM Plex Sans', sans-serif;
+   
+   display: flex;
+   justify-content: center;
+}
+
+.p{
+    border: 1px solid #ffffff;
+    width:80px;
+}
+
+.bottom-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.message-button{
+    border: 1.4px solid #6c757d;
+    color: #6c757d;
+    border-radius: .25rem;
+    background-color: transparent;
+    width: 116px;
+    margin-left:6%;
+    
+}
+
+.message-button:hover{
+    background-color: #636060;
+    color: #ffffff;
+}
+
+.item-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.7rem;
+}
+
+.grid {
+    margin:0% 18%;
+}
+@media screen and (min-width:600px){
+    .grid{
+        margin: 0% 6%;
+    }
+}
+
+.tag{
+    margin: 0% 18%;
+}
+@media screen and (min-width:600px){
+    .tag{
+        margin: 0% 6%;
+    }
+}
+
